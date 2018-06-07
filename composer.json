@@ -1,0 +1,21 @@
+{
+  "name": "TwitterSearch",
+  "description": "A PHP Package for Twitter Search API",
+  "keywords": ["twitter search", "PHP"],
+  "type": "package",
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "license": "MIT",
+  "authors": [{
+    "name": "Timothy Wikedzi",
+    "email": "timothy.wikedzi@andela.com"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Twitter\\": "Twitter/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
+}
